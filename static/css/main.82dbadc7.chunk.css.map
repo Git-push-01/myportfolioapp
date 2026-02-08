@@ -1,1 +1,0 @@
-{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,iBAAkB,CAClB,qBAEF,CACA,OACE,YAAa,CACb,WACF","file":"main.82dbadc7.chunk.css","sourcesContent":[".App {\n  text-align: center;\n  background-color: black;\n\n}\n.photo {\n  height: 290px;\n  width: 290px;\n}\n"]}
