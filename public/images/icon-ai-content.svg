@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="400" y2="400">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="32" fill="url(#bg)"/>
+  <!-- AI Brain / Sparkle icon -->
+  <g transform="translate(200, 155)">
+    <!-- Central brain circle -->
+    <circle cx="0" cy="0" r="50" stroke="url(#accent)" stroke-width="4" fill="none"/>
+    <!-- Neural connections -->
+    <line x1="-25" y1="-15" x2="25" y2="-15" stroke="#f59e0b" stroke-width="2.5" opacity="0.7"/>
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#fbbf24" stroke-width="2.5" opacity="0.7"/>
+    <line x1="-25" y1="15" x2="25" y2="15" stroke="#f59e0b" stroke-width="2.5" opacity="0.7"/>
+    <!-- Nodes -->
+    <circle cx="-25" cy="-15" r="5" fill="#f59e0b"/>
+    <circle cx="25" cy="-15" r="5" fill="#ef4444"/>
+    <circle cx="-30" cy="0" r="5" fill="#fbbf24"/>
+    <circle cx="30" cy="0" r="5" fill="#f59e0b"/>
+    <circle cx="-25" cy="15" r="5" fill="#ef4444"/>
+    <circle cx="25" cy="15" r="5" fill="#fbbf24"/>
+    <!-- Sparkle stars -->
+    <polygon points="70,-40 74,-30 84,-28 76,-22 78,-12 70,-18 62,-12 64,-22 56,-28 66,-30" fill="#fbbf24" opacity="0.8"/>
+    <polygon points="-65,-45 -62,-38 -55,-37 -61,-33 -60,-26 -65,-30 -70,-26 -69,-33 -75,-37 -68,-38" fill="#f59e0b" opacity="0.6"/>
+  </g>
+  <!-- Document icon bottom -->
+  <g transform="translate(200, 155)">
+    <!-- Arrow down to doc -->
+    <line x1="0" y1="60" x2="0" y2="80" stroke="#f59e0b" stroke-width="3" opacity="0.5"/>
+    <polygon points="0,85 -8,75 8,75" fill="#f59e0b" opacity="0.5"/>
+  </g>
+  <!-- Label -->
+  <text x="200" y="285" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#e2e8f0">AI CONTENT</text>
+  <text x="200" y="318" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="500" fill="#94a3b8">AUTOMATOR</text>
+</svg>
