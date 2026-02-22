@@ -44,6 +44,15 @@ const projects: Project[] = [
   },
   {
     id: 4,
+    title: 'Agent Builder',
+    description: 'A guided chat-based tool for creating custom AI agents. Features a conversational UI, build pipeline, and Docker support for deploying tailored AI agents.',
+    tech: ['Next.js', 'TypeScript', 'Docker', 'AI'],
+    image: '/images/icon-agent-builder.svg',
+    github: 'https://github.com/Git-push-01/agent-builder',
+    featured: true,
+  },
+  {
+    id: 5,
     title: 'Portfolio Website',
     description: 'Modern portfolio website built with Next.js, TypeScript, and Tailwind CSS featuring responsive design, smooth animations, and deployed via GitHub Pages.',
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React'],
