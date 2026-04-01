@@ -32,8 +32,10 @@ const skills: Skill[] = [
   { name: 'Amplitude', icon: '📉', category: 'martech' },
   // AI-Assisted Development
   { name: 'GitHub Copilot', icon: '🤖', category: 'ai' },
-  { name: 'AI Code Agents', icon: '🧠', category: 'ai' },
+  { name: 'MCP Servers', icon: '🔌', category: 'ai' },
   { name: 'Claude', icon: '✨', category: 'ai' },
+  { name: 'Ollama', icon: '🧠', category: 'ai' },
+  { name: 'AI Workflow Design', icon: '🔁', category: 'ai' },
   // DevOps
   { name: 'Git', icon: '📦', category: 'devops' },
   { name: 'GitHub', icon: '🐙', category: 'devops' },
@@ -59,8 +61,8 @@ export default function Skills() {
           <span className="gradient-text">Technical Skills</span>
         </h2>
         <p className="text-center text-slate-600 max-w-2xl mx-auto mb-12">
-          A comprehensive toolkit of technologies I use to build modern, scalable,
-          and performant applications.
+          Technologies and tools I work with across the full stack — from frontend interfaces
+          to AI pipelines and data integrations.
         </p>
 
         <div className="space-y-12">
@@ -121,7 +123,7 @@ export default function Skills() {
             </div>
             <h4 className="font-semibold text-slate-800 mb-2">AI-Assisted Development</h4>
             <p className="text-slate-500 text-sm">
-              Leveraging AI tools to accelerate development workflows
+              MCP servers, AI workflow design, and structured AI-first engineering practices
             </p>
           </div>
         </div>

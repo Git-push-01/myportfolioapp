@@ -33,16 +33,17 @@ export default function About() {
               <h3 className="text-xl font-semibold">Who I Am</h3>
             </div>
             <p className="text-slate-600 leading-relaxed mb-4">
-              Frontend Developer and MarTech Specialist with expertise in building 
-              scalable marketing technology solutions. I specialize in developing data-driven 
-              applications, integrating marketing platforms, and creating seamless user experiences 
-              that drive business growth.
+              Software engineer focused on designing systems where data, APIs, and AI work
+              together. My work spans workflow automation, CMS integrations, MarTech pipelines,
+              and AI-assisted development &mdash; with an emphasis on building end-to-end
+              solutions that are maintainable and purposeful.
             </p>
             <p className="text-slate-600 leading-relaxed">
-              With a strong foundation in Computer Science, I bring a detail-oriented approach 
-              to problem-solving and a passion for learning new technologies. I excel in 
-              JavaScript, React, TypeScript, Node.js, Ruby on Rails, and various marketing 
-              automation tools.
+              I work with a structured, AI-first approach: writing coding standards and playbooks
+              in Markdown, integrating MCP servers into development pipelines, and using tools
+              like GitHub Copilot as part of a deliberate engineering workflow. My technical
+              foundation includes JavaScript, TypeScript, React, Node.js, and a range of APIs
+              and platforms.
             </p>
           </div>
 
@@ -80,7 +81,7 @@ export default function About() {
             { number: '10+', label: 'Projects Completed' },
             { number: '5+', label: 'Years Experience' },
             { number: '15+', label: 'Technologies' },
-            { number: '100%', label: 'Dedication' },
+            { number: '3+', label: 'AI Workflows Built' },
           ].map((stat, index) => (
             <div key={index} className="text-center p-6 card">
               <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">

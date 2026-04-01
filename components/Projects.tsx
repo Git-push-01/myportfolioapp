@@ -18,7 +18,7 @@ const projects: Project[] = [
   {
     id: 1,
     title: 'Codebase Explorer',
-    description: 'A browser extension that helps non-technical PMs and Designers visualize codebase architecture with interactive graphs, hover details, git-blame, team ownership, and Jira integration.',
+    description: 'A browser extension that bridges engineering and non-technical stakeholders. Visualizes codebase architecture through interactive graphs, surfaces git-blame and team ownership data, and integrates with Jira — turning complex codebases into navigable, shareable systems.',
     tech: ['TypeScript', 'React', 'Node.js', 'Chrome Extension', 'Cytoscape.js'],
     image: '/images/icon-codebase-explorer.svg',
     github: 'https://github.com/Git-push-01/codebase-explorer',
@@ -27,7 +27,7 @@ const projects: Project[] = [
   {
     id: 2,
     title: 'AI Content Automator',
-    description: 'AI-powered tool to automate Contentful page creation from Excel/CSV spreadsheets, streamlining content workflows and reducing manual CMS entry.',
+    description: 'An end-to-end automation pipeline that takes structured data from Excel/CSV files and creates populated Contentful pages via the Contentful API. Eliminates manual CMS entry by defining a clear input → transform → publish workflow.',
     tech: ['AI', 'Contentful API', 'Excel/CSV', 'Automation'],
     image: '/images/icon-ai-content.svg',
     github: 'https://github.com/Git-push-01/ai-content-automator',
@@ -36,7 +36,7 @@ const projects: Project[] = [
   {
     id: 3,
     title: 'Finance Copilot',
-    description: 'A fully local, privacy-first AI assistant for family budgeting, spending analysis, and debt payoff planning — powered by a local LLM via Ollama. No cloud, no bank logins.',
+    description: 'A fully local AI assistant for personal finance built on Ollama. Parses spending data, runs debt payoff projections, and answers budgeting questions — entirely offline, with no cloud dependencies or third-party logins.',
     tech: ['Python', 'Ollama', 'Local LLM', 'Shell'],
     image: '/images/icon-finance-copilot.svg',
     github: 'https://github.com/Git-push-01/FinanceCopilot',
@@ -45,7 +45,7 @@ const projects: Project[] = [
   {
     id: 4,
     title: 'Agent Builder',
-    description: 'A guided chat-based tool for creating custom AI agents. Features a conversational UI, build pipeline, and Docker support for deploying tailored AI agents.',
+    description: 'A guided tool for defining, configuring, and deploying custom AI agents. Features a conversational build pipeline, structured configuration output, and Docker support — designed to make agent creation repeatable and portable.',
     tech: ['Next.js', 'TypeScript', 'Docker', 'AI'],
     image: '/images/icon-agent-builder.svg',
     github: 'https://github.com/Git-push-01/agent-builder',
@@ -54,7 +54,7 @@ const projects: Project[] = [
   {
     id: 5,
     title: 'Portfolio Website',
-    description: 'Modern portfolio website built with Next.js, TypeScript, and Tailwind CSS featuring responsive design, smooth animations, and deployed via GitHub Pages.',
+    description: 'This site — built with Next.js, TypeScript, and Tailwind CSS, deployed via GitHub Pages. Structured as a component-based system with clean data separation so content and layout stay independently maintainable.',
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React'],
     image: '/images/icon-portfolio.svg',
     github: 'https://github.com/Git-push-01/myportfolioapp',
@@ -79,8 +79,7 @@ export default function Projects() {
           <span className="gradient-text">Featured Projects</span>
         </h2>
         <p className="text-center text-slate-400 max-w-2xl mx-auto mb-8">
-          Here are some of my recent projects that showcase my skills and passion
-          for building great software.
+          Projects focused on systems integration, workflow automation, and AI-driven pipelines.
         </p>
 
         {/* Filter Buttons */}

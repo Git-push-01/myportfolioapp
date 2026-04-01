@@ -64,15 +64,15 @@ export default function Hero() {
                 mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
               }`}
             >
-              Frontend Developer & MarTech Specialist
+              Software Engineer &middot; AI Workflows &amp; Systems Integration
             </h2>
             <p
               className={`text-slate-500 max-w-xl mb-8 leading-relaxed transition-all duration-700 delay-400 ${
                 mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
               }`}
             >
-              Building scalable marketing technology solutions and data-driven applications.
-              Passionate about creating seamless user experiences.
+              I build systems where data, APIs, and AI interact — from workflow automation
+              and MCP server integrations to frontend applications that connect it all together.
             </p>
 
             <div
